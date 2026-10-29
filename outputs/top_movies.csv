@@ -1,0 +1,21 @@
+movieId,rating_count,average_rating,title,genres
+318,317,4.429022082018927,"Shawshank Redemption, The (1994)",Crime|Drama
+858,192,4.2890625,"Godfather, The (1972)",Crime|Drama
+2959,218,4.272935779816514,Fight Club (1999),Action|Crime|Drama|Thriller
+1276,57,4.271929824561403,Cool Hand Luke (1967),Drama
+750,97,4.268041237113402,Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb (1964),Comedy|War
+904,84,4.261904761904762,Rear Window (1954),Mystery|Thriller
+1221,129,4.25968992248062,"Godfather: Part II, The (1974)",Crime|Drama
+48516,107,4.252336448598131,"Departed, The (2006)",Crime|Drama|Thriller
+1213,126,4.25,Goodfellas (1990),Crime|Drama
+912,100,4.24,Casablanca (1942),Drama|Romance
+58559,149,4.238255033557047,"Dark Knight, The (2008)",Action|Crime|Drama|IMAX
+50,204,4.237745098039215,"Usual Suspects, The (1995)",Crime|Mystery|Thriller
+1197,142,4.232394366197183,"Princess Bride, The (1987)",Action|Adventure|Comedy|Fantasy|Romance
+260,251,4.231075697211155,Star Wars: Episode IV - A New Hope (1977),Action|Adventure|Sci-Fi
+527,220,4.225,Schindler's List (1993),Drama|War
+1208,107,4.219626168224299,Apocalypse Now (1979),Action|Drama|War
+2329,129,4.217054263565892,American History X (1998),Crime|Drama
+1196,211,4.2156398104265405,Star Wars: Episode V - The Empire Strikes Back (1980),Action|Adventure|Sci-Fi
+1252,59,4.211864406779661,Chinatown (1974),Crime|Film-Noir|Mystery|Thriller
+1198,200,4.2075,Raiders of the Lost Ark (Indiana Jones and the Raiders of the Lost Ark) (1981),Action|Adventure

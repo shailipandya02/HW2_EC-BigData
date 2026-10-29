@@ -1,0 +1,156 @@
+{
+  "dataset": "MovieLens ml-latest-small",
+  "user_id": 1,
+  "minimum_rating": 4.0,
+  "top_k": 10,
+  "warmups": 1,
+  "repetitions": 5,
+  "timing_method": "Client-observed wall-clock milliseconds; includes query execution and full result consumption; warm-up excluded.",
+  "mongo": {
+    "samples_ms": [
+      1610.202,
+      1609.213,
+      1625.327,
+      1638.186,
+      1641.425
+    ],
+    "median_ms": 1625.327,
+    "min_ms": 1609.213,
+    "results": [
+      {
+        "movieId": 318,
+        "recommendation": "Shawshank Redemption, The (1994)",
+        "sharedUsers": 274,
+        "predictedRating": 4.69
+      },
+      {
+        "movieId": 858,
+        "recommendation": "Godfather, The (1972)",
+        "sharedUsers": 157,
+        "predictedRating": 4.67
+      },
+      {
+        "movieId": 589,
+        "recommendation": "Terminator 2: Judgment Day (1991)",
+        "sharedUsers": 150,
+        "predictedRating": 4.51
+      },
+      {
+        "movieId": 4993,
+        "recommendation": "Lord of the Rings: The Fellowship of the Ring, The (2001)",
+        "sharedUsers": 144,
+        "predictedRating": 4.59
+      },
+      {
+        "movieId": 7153,
+        "recommendation": "Lord of the Rings: The Return of the King, The (2003)",
+        "sharedUsers": 138,
+        "predictedRating": 4.5
+      },
+      {
+        "movieId": 5952,
+        "recommendation": "Lord of the Rings: The Two Towers, The (2002)",
+        "sharedUsers": 129,
+        "predictedRating": 4.52
+      },
+      {
+        "movieId": 150,
+        "recommendation": "Apollo 13 (1995)",
+        "sharedUsers": 126,
+        "predictedRating": 4.36
+      },
+      {
+        "movieId": 2762,
+        "recommendation": "Sixth Sense, The (1999)",
+        "sharedUsers": 124,
+        "predictedRating": 4.42
+      },
+      {
+        "movieId": 4226,
+        "recommendation": "Memento (2000)",
+        "sharedUsers": 120,
+        "predictedRating": 4.57
+      },
+      {
+        "movieId": 32,
+        "recommendation": "Twelve Monkeys (a.k.a. 12 Monkeys) (1995)",
+        "sharedUsers": 116,
+        "predictedRating": 4.44
+      }
+    ]
+  },
+  "neo4j": {
+    "samples_ms": [
+      4360.075,
+      4388.478,
+      4382.023,
+      4345.209,
+      4366.955
+    ],
+    "median_ms": 4366.955,
+    "min_ms": 4345.209,
+    "results": [
+      {
+        "movieId": 318,
+        "recommendation": "Shawshank Redemption, The (1994)",
+        "sharedUsers": 274,
+        "predictedRating": 4.69
+      },
+      {
+        "movieId": 858,
+        "recommendation": "Godfather, The (1972)",
+        "sharedUsers": 157,
+        "predictedRating": 4.67
+      },
+      {
+        "movieId": 589,
+        "recommendation": "Terminator 2: Judgment Day (1991)",
+        "sharedUsers": 150,
+        "predictedRating": 4.51
+      },
+      {
+        "movieId": 4993,
+        "recommendation": "Lord of the Rings: The Fellowship of the Ring, The (2001)",
+        "sharedUsers": 144,
+        "predictedRating": 4.59
+      },
+      {
+        "movieId": 7153,
+        "recommendation": "Lord of the Rings: The Return of the King, The (2003)",
+        "sharedUsers": 138,
+        "predictedRating": 4.5
+      },
+      {
+        "movieId": 5952,
+        "recommendation": "Lord of the Rings: The Two Towers, The (2002)",
+        "sharedUsers": 129,
+        "predictedRating": 4.52
+      },
+      {
+        "movieId": 150,
+        "recommendation": "Apollo 13 (1995)",
+        "sharedUsers": 126,
+        "predictedRating": 4.36
+      },
+      {
+        "movieId": 2762,
+        "recommendation": "Sixth Sense, The (1999)",
+        "sharedUsers": 124,
+        "predictedRating": 4.42
+      },
+      {
+        "movieId": 4226,
+        "recommendation": "Memento (2000)",
+        "sharedUsers": 120,
+        "predictedRating": 4.57
+      },
+      {
+        "movieId": 32,
+        "recommendation": "Twelve Monkeys (a.k.a. 12 Monkeys) (1995)",
+        "sharedUsers": 116,
+        "predictedRating": 4.44
+      }
+    ]
+  },
+  "same_ordered_recommendations": true
+}
